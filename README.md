@@ -79,6 +79,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+It combines the languages of HTML, CSS and JS within a single document and allows for more independency and cohensiveness to webpages. Ie: if an element or color scheme has to be altered, it can be done with a few specified pages rather than sifting through much more pages.
 1. Describe component state.
+  data that lives within the component which can be changed, updated through a higher order function defined within the tuple and useState()
 1. Describe props.
+  data that is passed from the parent to children and can be used within children elements
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  useEffect(), when defining the useEffect function, you can place a 2nd parameter to specify whether it should be run on every refresh or on certain changes to specific elements
